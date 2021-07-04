@@ -9,7 +9,7 @@ class Form extends React.Component {
         <form onSubmit={this.props.handleFormSubmit}>
             
           <label For="fruitname">
-          FruitName:  
+          <b>FruitName : </b> 
           <input required id="fruitname" value={this.props.newFruitName} 
             type="text"  name="fruitname" pattern="[A-Za-z]+" title="FruitName must be character only.. It can not contain
             numbers or symbols.."
@@ -18,7 +18,7 @@ class Form extends React.Component {
 
           
           <label for="price">
-          Price:  
+          <b> Price : </b> 
           <input required id="price" value={this.props.newPrice} 
             type="price" name="price" pattern="^[+-]?([0-9]*[.])?[0-9]+$" title="Price can be decimal OR floating point
             number only.. It can not character or symbols.."
@@ -29,7 +29,7 @@ class Form extends React.Component {
           
 
           <label for="quantity">
-          Quantity: 
+          <b>Quantity : </b>
           <input required id="quantity" value={this.props.newQuantity} 
             type="text" inputMode="numeric" pattern="[0-9]*" title="Quantity should be decimal number only.. It can not be floationg 
             point number or symbol or character...." name="quantity"
@@ -39,7 +39,7 @@ class Form extends React.Component {
           
 
 
-          <button type="submit" value="Submit">Add Item</button>
+          <button type="submit" value="Submit" id="btn">Add Item</button>
 
           
         </form>

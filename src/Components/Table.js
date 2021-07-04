@@ -6,10 +6,10 @@ class Table extends React.Component {
    
     
     return (
-      <div id="Table">
+      <div id="Table" >
         <table>
           <tbody>
-            <tr>
+            <tr >
               <th>FruitName</th>
               <th>  Price  </th> 
               <th> Quantity </th>

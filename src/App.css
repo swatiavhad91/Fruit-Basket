@@ -1,6 +1,6 @@
-.App {
+/* .App {
   text-align: center;
-}
+} */
 
 .App-logo {
   height: 40vmin;
@@ -12,7 +12,56 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+table{
+  width: 50%;
+  margin-top: 5%;
+  margin-left: 27.5%;
+  
 
+  
+}
+table,td,th{
+  border: solid 2px black;
+  border-collapse: collapse;
+}
+th{
+  
+  background-color:cyan;
+  font-size: large;
+  text-align: center;
+  height: 7%;
+  
+}
+td{
+  background-color: skyblue;
+  text-align: center;
+  height: 5%;
+}
+h3{
+  text-align: center;
+  background-color: violet;
+  font-weight: bolder;
+  width: 30%;
+  margin-left: 35%;
+}
+form{
+  width: 50%;
+  margin-left: 25%;
+  background-color: sandybrown;
+  padding: 2%;
+}
+#price{
+  margin-left: 6%;
+}
+#quantity{
+  margin-left: 2%;
+}
+#btn{
+  margin-left: 40%;
+  height: 18%%;
+  width: 20%;
+  font-weight: bolder;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;

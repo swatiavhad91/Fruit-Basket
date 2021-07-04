@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
-import Table from './Components/Table';
 import Form from './Components/Form';
+import Table from './Components/Table';
+
 
 class App extends Component {
   constructor() {
@@ -48,13 +49,14 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Table items={ this.state.items }/>
+        
         <Form handleFormSubmit={ this.handleFormSubmit } 
           handleInputChange={ this.handleInputChange }
           newFruitName={ this.state.fruitname }
           newQuantity={ this.state.quantity }
           newPrice={ this.state.price } 
           newTotal={(this.state.quantity*this.state.price)}/>
+          <Table items={ this.state.items }/>
       </div>
     );
   }
